@@ -1,0 +1,13 @@
+E:\RPMI\Unidad8\Ejercicio01\bin\Debug\netcoreapp3.1\Ejercicio01.exe
+E:\RPMI\Unidad8\Ejercicio01\bin\Debug\netcoreapp3.1\Ejercicio01.deps.json
+E:\RPMI\Unidad8\Ejercicio01\bin\Debug\netcoreapp3.1\Ejercicio01.runtimeconfig.json
+E:\RPMI\Unidad8\Ejercicio01\bin\Debug\netcoreapp3.1\Ejercicio01.runtimeconfig.dev.json
+E:\RPMI\Unidad8\Ejercicio01\bin\Debug\netcoreapp3.1\Ejercicio01.dll
+E:\RPMI\Unidad8\Ejercicio01\bin\Debug\netcoreapp3.1\Ejercicio01.pdb
+E:\RPMI\Unidad8\Ejercicio01\obj\Debug\netcoreapp3.1\Ejercicio01.csprojAssemblyReference.cache
+E:\RPMI\Unidad8\Ejercicio01\obj\Debug\netcoreapp3.1\Ejercicio01.AssemblyInfoInputs.cache
+E:\RPMI\Unidad8\Ejercicio01\obj\Debug\netcoreapp3.1\Ejercicio01.AssemblyInfo.cs
+E:\RPMI\Unidad8\Ejercicio01\obj\Debug\netcoreapp3.1\Ejercicio01.csproj.CoreCompileInputs.cache
+E:\RPMI\Unidad8\Ejercicio01\obj\Debug\netcoreapp3.1\Ejercicio01.dll
+E:\RPMI\Unidad8\Ejercicio01\obj\Debug\netcoreapp3.1\Ejercicio01.pdb
+E:\RPMI\Unidad8\Ejercicio01\obj\Debug\netcoreapp3.1\Ejercicio01.genruntimeconfig.cache

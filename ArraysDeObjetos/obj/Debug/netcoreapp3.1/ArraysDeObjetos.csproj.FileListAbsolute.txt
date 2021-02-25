@@ -1,0 +1,13 @@
+E:\RPMI\Unidad8\ArraysDeObjetos\bin\Debug\netcoreapp3.1\ArraysDeObjetos.exe
+E:\RPMI\Unidad8\ArraysDeObjetos\bin\Debug\netcoreapp3.1\ArraysDeObjetos.deps.json
+E:\RPMI\Unidad8\ArraysDeObjetos\bin\Debug\netcoreapp3.1\ArraysDeObjetos.runtimeconfig.json
+E:\RPMI\Unidad8\ArraysDeObjetos\bin\Debug\netcoreapp3.1\ArraysDeObjetos.runtimeconfig.dev.json
+E:\RPMI\Unidad8\ArraysDeObjetos\bin\Debug\netcoreapp3.1\ArraysDeObjetos.dll
+E:\RPMI\Unidad8\ArraysDeObjetos\bin\Debug\netcoreapp3.1\ArraysDeObjetos.pdb
+E:\RPMI\Unidad8\ArraysDeObjetos\obj\Debug\netcoreapp3.1\ArraysDeObjetos.AssemblyInfoInputs.cache
+E:\RPMI\Unidad8\ArraysDeObjetos\obj\Debug\netcoreapp3.1\ArraysDeObjetos.AssemblyInfo.cs
+E:\RPMI\Unidad8\ArraysDeObjetos\obj\Debug\netcoreapp3.1\ArraysDeObjetos.csproj.CoreCompileInputs.cache
+E:\RPMI\Unidad8\ArraysDeObjetos\obj\Debug\netcoreapp3.1\ArraysDeObjetos.dll
+E:\RPMI\Unidad8\ArraysDeObjetos\obj\Debug\netcoreapp3.1\ArraysDeObjetos.pdb
+E:\RPMI\Unidad8\ArraysDeObjetos\obj\Debug\netcoreapp3.1\ArraysDeObjetos.genruntimeconfig.cache
+E:\RPMI\Unidad8\ArraysDeObjetos\obj\Debug\netcoreapp3.1\ArraysDeObjetos.csprojAssemblyReference.cache
