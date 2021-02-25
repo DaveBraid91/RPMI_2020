@@ -15,8 +15,10 @@ namespace Ejercicio01
                             libro.GetTitulo(), libro.GetAutor(), libro.GetUbicacion());
                         libro.GetPaginas(out paginas);
                         paginas = libro.GetPaginas();*/
-            Libro[] libros = new Libro[1000];
-            int cantidadLibros = 0;
+            /*Libro[] libros = new Libro[1000];
+            int cantidadLibros = 0;*/
+            Documento[] documentos = new Documento[1000];
+            int cantidadDocumentos = 0;
             bool salir = false;
 
             while(!salir)
@@ -24,10 +26,10 @@ namespace Ejercicio01
                 switch (Menu())
                 {
                     case 1:
-                        AddLibro(libros, ref cantidadLibros);
+                        AddLibro(documentos, ref cantidadDocumentos);
                         break;
                     case 2:
-                        ShowLibros(libros, cantidadLibros);
+                        ShowLibros(documentos, cantidadDocumentos);
                         break;
                     case 3:
                         salir = true;
@@ -73,25 +75,26 @@ namespace Ejercicio01
             return opcion;
         }
 
-        public static void AddLibro(Libro[] libros, ref int cantidadLibros)
+        public static void AddLibro(Documento[] documentos, ref int cantidadDocumentos)
         {
+            bool esLibro = EsLibro();
             string autor = RecogerDatos("autor");
             string titulo = RecogerDatos("título");
-            libros[cantidadLibros] = new Libro(autor, titulo);
-            cantidadLibros++;
+            documentos[cantidadDocumentos] = esLibro ? new Libro(autor, titulo) : new Documento(autor, titulo);
+            cantidadDocumentos++;
         }
 
-        public static void ShowLibros(Libro[] libros, int cantidadLibros)
+        public static void ShowLibros(Documento[] documentos, int cantidadDocumentos)
         {
             Console.Clear();
             Console.WriteLine(" ------------------------------------------------------------");
             Console.WriteLine("|                    LISTA DE LIBROS                         |");
             Console.WriteLine("|                                                            |");
-            for (int i = 0; i < cantidadLibros; i++)
+            for (int i = 0; i < cantidadDocumentos; i++)
             {
-                Console.WriteLine("| TÍTULO: {0}", libros[i].titulo);
-                Console.WriteLine("| AUTOR: {0}", libros[i].autor);
-                Console.WriteLine("| UBICACIÓN: {0}s", libros[i].ubicacion);
+                Console.WriteLine("| TÍTULO: {0}", documentos[i].titulo);
+                Console.WriteLine("| AUTOR: {0}", documentos[i].autor);
+                Console.WriteLine("| UBICACIÓN: {0}s", documentos[i].ubicacion);
                 Console.WriteLine("|                                                            |");
             }
             Console.WriteLine("|                                                            |");
@@ -99,6 +102,14 @@ namespace Ejercicio01
             Console.WriteLine(" ------------------------------------------------------------");
             Console.WriteLine("\n Pulsa ENTER para continuar");
             Console.ReadLine();
+        }
+
+        public static bool EsLibro()
+        {
+            Console.Write("¿Qué desea añadir?\n" +
+                "1.- Libro\n" +
+                "2.- Documento\n");
+            return (Console.ReadLine() == "1") ? true : false;
         }
     }
 }
