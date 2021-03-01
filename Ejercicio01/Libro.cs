@@ -8,21 +8,19 @@ namespace Ejercicio01
     {
         int paginas;
 
-        public Libro(string nuevoAutor, string nuevoTitulo, string nuevaUbicacion)
+        public Libro(string nuevoAutor, string nuevoTitulo, string nuevaUbicacion, int nuevasPaginas) 
+            : base(nuevoAutor, nuevoTitulo)
         {
-            autor = nuevoAutor;
-            titulo = nuevoTitulo;
             ubicacion = nuevaUbicacion;
+            paginas = nuevasPaginas;
         }
 
-        public Libro(string nuevoAutor, string nuevoTitulo)
+        public Libro(string nuevoAutor, string nuevoTitulo) : base(nuevoAutor, nuevoTitulo)
         {
-            autor = nuevoAutor;
-            titulo = nuevoTitulo;
-            ubicacion = "No detallada";
+            //Pasos adicionales
         }
 
-        public Libro()
+        public Libro() : base()
         {
             autor = "No detallado";
             titulo = "No detallado";
@@ -41,6 +39,12 @@ namespace Ejercicio01
         public void GetPaginas(out int numeroPaginas)
         {
             numeroPaginas = paginas;
+        }
+
+        public new string GetAutor()
+        {
+            Console.WriteLine("El autor ha sido comunicado");
+            return base.GetAutor();            
         }
     }
 }

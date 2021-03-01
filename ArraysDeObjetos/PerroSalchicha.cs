@@ -10,5 +10,11 @@ namespace ArraysDeObjetos
         {
             Console.WriteLine("Ha nacido una aberración");
         }
+
+        public override void Hablar()
+        {
+            base.Hablar();
+            Console.WriteLine("Wiiiiiiiiif!");
+        }
     }
 }

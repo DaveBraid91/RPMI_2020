@@ -18,11 +18,8 @@ namespace ArraysDeObjetos
                 Console.WriteLine("Este Perro se llama: {0}", misPerris[i].nombre);
             }
             Perro perri = new Perro();
-        }
 
-        static void AddLibro()
-        {
-
+            misAnimales[2].Hablar();
         }
     }
 }

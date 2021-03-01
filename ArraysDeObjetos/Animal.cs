@@ -13,9 +13,14 @@ namespace ArraysDeObjetos
             Console.WriteLine("Ha nacido un animal");
         }
 
-        public Animal(string nuevoNombre)
+        public Animal(string nombre)
         {
-            nombre = nuevoNombre;
+            this.nombre = nombre;
+        }
+
+        public virtual void Hablar()
+        {
+            Console.WriteLine("Me estoy comunicando");
         }
     }
 }

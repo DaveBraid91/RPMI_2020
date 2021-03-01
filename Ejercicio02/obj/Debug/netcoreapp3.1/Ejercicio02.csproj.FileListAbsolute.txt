@@ -1,0 +1,13 @@
+E:\RPMI\Unidad8\Ejercicio02\bin\Debug\netcoreapp3.1\Ejercicio02.exe
+E:\RPMI\Unidad8\Ejercicio02\bin\Debug\netcoreapp3.1\Ejercicio02.deps.json
+E:\RPMI\Unidad8\Ejercicio02\bin\Debug\netcoreapp3.1\Ejercicio02.runtimeconfig.json
+E:\RPMI\Unidad8\Ejercicio02\bin\Debug\netcoreapp3.1\Ejercicio02.runtimeconfig.dev.json
+E:\RPMI\Unidad8\Ejercicio02\bin\Debug\netcoreapp3.1\Ejercicio02.dll
+E:\RPMI\Unidad8\Ejercicio02\bin\Debug\netcoreapp3.1\Ejercicio02.pdb
+E:\RPMI\Unidad8\Ejercicio02\obj\Debug\netcoreapp3.1\Ejercicio02.csprojAssemblyReference.cache
+E:\RPMI\Unidad8\Ejercicio02\obj\Debug\netcoreapp3.1\Ejercicio02.AssemblyInfoInputs.cache
+E:\RPMI\Unidad8\Ejercicio02\obj\Debug\netcoreapp3.1\Ejercicio02.AssemblyInfo.cs
+E:\RPMI\Unidad8\Ejercicio02\obj\Debug\netcoreapp3.1\Ejercicio02.csproj.CoreCompileInputs.cache
+E:\RPMI\Unidad8\Ejercicio02\obj\Debug\netcoreapp3.1\Ejercicio02.dll
+E:\RPMI\Unidad8\Ejercicio02\obj\Debug\netcoreapp3.1\Ejercicio02.pdb
+E:\RPMI\Unidad8\Ejercicio02\obj\Debug\netcoreapp3.1\Ejercicio02.genruntimeconfig.cache

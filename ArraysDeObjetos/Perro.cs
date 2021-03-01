@@ -16,5 +16,10 @@ namespace ArraysDeObjetos
             nombre = nuevoNombre;
             Console.WriteLine("Ha nacido el perro {0}", nombre);
         }
+
+        public override void Hablar()
+        {
+            Console.WriteLine("Woof!");
+        }
     }
 }

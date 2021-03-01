@@ -8,10 +8,17 @@ namespace Ejercicio01
     {
         public string autor, titulo, ubicacion;
 
-        public Documento(string nuevoAutor, string nuevoTitulo)
+        public Documento(string autor, string titulo)
         {
-            autor = nuevoAutor;
-            titulo = nuevoTitulo;
+            this.autor = autor;
+            this.titulo = titulo;
+            this.ubicacion = "No detallada";
+        }
+
+        public Documento()
+        {
+            autor = "No detallado";
+            titulo = "No detallado";
             ubicacion = "No detallada";
         }
         public string GetAutor()
